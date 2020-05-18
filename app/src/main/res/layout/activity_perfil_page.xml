@@ -1,0 +1,80 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context=".perfil_page">
+
+    <ImageView
+        android:id="@+id/ivPerfil"
+        android:layout_width="match_parent"
+        android:layout_height="281dp"
+        android:cropToPadding="false"
+        app:srcCompat="@drawable/batmanperfil" />
+
+    <TextView
+        android:id="@+id/lblNom"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="@dimen/fab_margin"
+        android:text="@string/lblNom" />
+
+    <EditText
+        android:id="@+id/txtNom"
+        android:layout_width="315dp"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="@dimen/fab_margin"
+        android:ems="10"
+        android:inputType="textPersonName"
+        android:text="@string/txtNom" />
+
+    <TextView
+        android:id="@+id/lblAlias"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="@dimen/fab_margin"
+        android:text="@string/lblAlias" />
+
+    <EditText
+        android:id="@+id/txtAlias"
+        android:layout_width="317dp"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="@dimen/fab_margin"
+        android:ems="10"
+        android:inputType="textPersonName"
+        android:text="@string/txtAlias" />
+
+    <TextView
+        android:id="@+id/lblCiudad"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="@dimen/fab_margin"
+        android:text="@string/lblCiudad" />
+
+    <EditText
+        android:id="@+id/txtCiudad"
+        android:layout_width="318dp"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="@dimen/fab_margin"
+        android:ems="10"
+        android:inputType="textPersonName"
+        android:text="@string/txtCiudad" />
+
+    <TextView
+        android:id="@+id/lblFNac"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="@dimen/fab_margin"
+        android:text="@string/lblFNac" />
+
+    <EditText
+        android:id="@+id/txtFNac"
+        android:layout_width="320dp"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="@dimen/fab_margin"
+        android:ems="10"
+        android:inputType="date|textPersonName"
+        android:text="@string/txtFNac" />
+</LinearLayout>
